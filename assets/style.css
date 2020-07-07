@@ -28,7 +28,7 @@ h2 {
 .background::before { 
     content: "";
     background-color: rgb(250, 250, 178);
-    background-image: url(images/kandinsky.jpg);
+    background-image: url(./images/kandinsky.jpg);
     background-size: cover;
     position: absolute;
     top: 0px;
