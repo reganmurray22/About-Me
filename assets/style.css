@@ -1,20 +1,26 @@
 
 nav{
+    float: left;
+    width: 100%;
     border-bottom: 4px solid gold;  
 
 }
 
 h1{
+    float: left;
     font-size: 40px;
-    width: 100%;
-    margin-left: 5px 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    color: #007bff;
+    margin-left: 5px; 
 }
 
 h2 {
+    position: absolute;
     text-align: right;
-    font-size:28px;
+    font-size:20px;
     width: 100%; 
-    margin-right: 40px
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .background {
     position: relative; 
@@ -37,14 +43,14 @@ h2 {
     opacity: 0.3;
 
 }
+.my-bio {
+    height: 200px
 
-.my-layout {
-    position: relative;
 }
+
 
 .project-box {
     height: 200px;
-    width: 100px;
     background-color: whitesmoke;
     border: 3px solid gold;
 
@@ -55,6 +61,21 @@ h2 {
     width: 100%;
 }
 
+.content{
+    float: left;
+    text-align: left;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 960px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 5%;
 
+}
 
+h3 {
+    text-align: center
+}
 
