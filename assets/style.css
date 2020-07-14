@@ -33,9 +33,16 @@ nav {
 }
 .hello {
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
+    color: blue;
+    font-family: "cookie";
 }
-
+img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
 
 .content-box {
     height: 200px;
@@ -61,6 +68,7 @@ h3 {
 
 .contact-invite {
     font-size: 40px;
+    font-family: "cookie";
 }
 
 .space-between {
@@ -72,8 +80,10 @@ h3 {
     width: 100%;
 }
 
-h4 {
+h2 {
     text-align: center
+    font-family: cookie;
+    font-size: 40px;  
 }
 
 .contact-me {
