@@ -1,3 +1,14 @@
+.navbar-custom .navbar-brand {
+    color: blue;
+    font-size: 28px;
+    background-color: whitesmoke;     
+} 
+
+.navbar-custom .navbar-text { 
+    color: blue;
+    font-size: 14px;
+    background-color: whitesmoke;   
+} 
 
 nav {
     float: left;
@@ -29,7 +40,7 @@ nav {
 .about-me {
     position: absolute;
     left: 0px;
-    top: 60px;
+    top: 75px;
 }
 
 .hello {
@@ -37,10 +48,9 @@ nav {
     font-size: 40px;
     color: rgb(8, 8, 68);
     font-family: "cookie";
-    line-height: 1;
 }
 
-.image-parent {
+.my-image {
     text-align: center;
 }
 
