@@ -23,7 +23,7 @@ nav {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .about-me {
@@ -34,12 +34,12 @@ nav {
 .hello {
     text-align: center;
     font-size: 40px;
-    color: blue;
+    color: rgb(8, 8, 68);
     font-family: "cookie";
 }
 img {
-    width: 300px; 
-    height: 300px; 
+    width: 400px; 
+    height: 400px; 
     object-fit: cover; 
     border-radius: 50%;
 }
@@ -50,6 +50,13 @@ img {
     border: 3px solid gold;
     font-size: 40px;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: cookie;
+    font-size: 40px;
+    color: rgb(8, 8, 68); 
 }
 
 .content-box1 {
@@ -80,11 +87,6 @@ h3 {
     width: 100%;
 }
 
-h2 {
-    text-align: center
-    font-family: cookie;
-    font-size: 40px;  
-}
 
 .contact-me {
     position: absolute;
