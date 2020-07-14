@@ -11,35 +11,70 @@
     
 
   
-    <nav>
-        <h1>Regan Murray</h1>
-        <h2>
-            <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="">Contact</a>
-        </h2>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Regan Murray</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     
     <div class="background">  
       
     </div>
-    <div class="container contact-me">
-        <form id="contact-form" name="contact-form" action="mailto:regan.murray22@gmail.com" method="POST">  
-        <div class= "row space-between">
-            <h4>Contact Me!</h4>
+    <div class="container-fluid contact-me"> 
+        <div class= "row contact-invite">
+            Contact Me
         </div>
-        <div class= "row contact-page">
-            <div class= "col-4"></div>
-            <div class= "col-4">
-                <div class="form">
-                    <p>Name </p>
-                    <input type="text" id="name" name="firstname" placeholder="type your name">
-                    <p>Email</p>
-                    <input type="text" id="email" name="emailname" placeholder="type your email">
-                    <p>Message</p>
-                    <input type="text" id="message" name="messagename" placeholder="">
-                    <button type="button">Submit</button>
+        <div class="row">
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mailto:regan.murray22@gmail.com" method="POST">
+                    <div class="row">
+                        <div class="col-md-12 text-center d-flex justify-content-center">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" text-align= "right" placeholder="your name here"/>
+                                <label for="name" class="darkwhite">Name</label>                        
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="row space-between"></div>
+                    <div class="row">
+                        <div class="col-md-12 text-center d-flex justify-content-center">
+                            <div class="md-form mb-0">                            
+                                <input type="text" id="email" name="email" class="form-control" placeholder="your email here"/>
+                                 <label for="email" class="darkwhite">Email</label>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row space-between"></div>
+                    <div class="row">
+                        <div class="col-md-12 text-center d-flex justify-content-center">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>                            
+                                <label for="message" class="darkwhite">Your message</label>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row space-between"></div>
+                    <div class="text-center d-flex justify-content-center">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
             </div>
-            <div class= "col-4"></div> 
         </div>
-    </div>
 </html>
