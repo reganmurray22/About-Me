@@ -28,7 +28,7 @@ nav {
 
 .about-me {
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 60px;
 }
 .hello {
@@ -36,7 +36,13 @@ nav {
     font-size: 40px;
     color: rgb(8, 8, 68);
     font-family: "cookie";
+    line-height: "1";
 }
+
+.image-parent {
+    text-align: center;
+}
+
 img {
     width: 400px; 
     height: 400px; 
@@ -53,10 +59,11 @@ img {
 }
 
 h2 {
-    text-align: center;
-    font-family: cookie;
-    font-size: 40px;
+    width: 100%;
+    font-size: 60px;
     color: rgb(8, 8, 68); 
+    font-family: "cookie";
+    text-align: center; 
 }
 
 .content-box1 {
@@ -73,10 +80,12 @@ h3 {
     margin-top: 100px;
 }
 
-.contact-invite {
+h4 {
+    width: 100%;
     font-size: 60px;
     color: rgb(8, 8, 68); 
     font-family: "cookie";
+    text-align: center;
 }
 
 .space-between {
@@ -86,16 +95,19 @@ h3 {
 
 .row {
     width: 100%;
+    margin-left: 0;
 }
 
 
 .contact-me {
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 80px;
     right: 0;
     bottom: 0;
+    text-align: center;
 }
+
 footer {
     color: blue;
     clear: both;
